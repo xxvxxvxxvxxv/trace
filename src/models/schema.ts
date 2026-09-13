@@ -35,7 +35,7 @@ export interface Values {
   lastUsed?: UTCInstant;
 }
 export type LinkSelection = Record<string, string[]>;
-export const APP_VERSION = "0.2.1-beta";
+export const APP_VERSION = "0.3.0-beta";
 export const SCHEMA_VERSION = 2;
 
 export interface RecordItem {

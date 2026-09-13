@@ -11,7 +11,7 @@
   top: 10px;
   bottom: 10px;
   width: 1px;
-  background: #586577;
+  background: #646464;
 }
 .event-card {
   position: relative;
@@ -85,7 +85,7 @@
   border: 1px dashed var(--border);
   border-radius: 4px;
   padding: 8px 12px;
-  color: #c7b58d;
+  color: #b6b6b6;
 }
 .timeline-compact {
   margin: 20px 0 0;

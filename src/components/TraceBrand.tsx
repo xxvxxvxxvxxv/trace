@@ -1,17 +1,11 @@
 import type { SVGProps } from "react";
 export function TraceMark(props: SVGProps<SVGSVGElement>) {
   return (
-    <svg viewBox="0 0 48 36" fill="none" aria-hidden="true" {...props}>
+    <svg viewBox="0 0 48 48" fill="none" aria-hidden="true" {...props}>
       <path
-        d="M3 18 14 7h20l11 11-11 11H14L3 18Z"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinejoin="round"
+        d="M4 6c11 4 29 4 40 0l-2 7H6L4 6Zm3 13h34v5H7v-5Zm6-6h5l-2 30h-5l2-30Zm17 0h5l2 30h-5l-2-30Zm-8 0h4v6h-4v-6Z"
+        fill="currentColor"
       />
-      <path d="m17 22 7-10 7 10H17Z" stroke="currentColor" strokeWidth="1.5" />
-      <circle cx="24" cy="12" r="3" fill="currentColor" />
-      <circle cx="17" cy="22" r="3" fill="currentColor" />
-      <circle cx="31" cy="22" r="3" fill="currentColor" />
     </svg>
   );
 }

@@ -456,7 +456,7 @@ export function App() {
           )}
           <div className="page-footer">
             <span>TRACE / Open-Source Investigation Workbench</span>
-            <span>v0.2.1-beta · Local-first</span>
+            <span>v0.3.0-beta · Local-first</span>
           </div>
         </main>
       </div>

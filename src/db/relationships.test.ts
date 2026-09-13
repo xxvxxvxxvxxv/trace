@@ -11,7 +11,7 @@ import {
   relationshipsByType,
   linkedRecords,
 } from "./database";
-import type { LinkSelection } from "../models/schema";
+import { APP_VERSION, type LinkSelection } from "../models/schema";
 import { createBackup, importBackup, validateBackup, type Backup } from "../utils/backup";
 import { legacyFixture } from "./migrations/legacyFixture";
 import { nowUTC } from "../models/time";
@@ -135,7 +135,7 @@ describe("v2 backup and import boundaries", () => {
     expect(backup).toMatchObject({
       version: 2,
       schemaVersion: 2,
-      applicationVersion: "0.2.1-beta",
+      applicationVersion: APP_VERSION,
     });
     for (const table of db.tables) await table.clear();
     await importBackup(JSON.parse(JSON.stringify(backup)));

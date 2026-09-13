@@ -9,12 +9,12 @@ export const graphKinds: Kind[] = [
   "hypotheses",
 ];
 export const colors: Partial<Record<Kind, string>> = {
-  entities: "#96adcb",
-  evidence: "#cea967",
-  locations: "#8aa796",
-  sources: "#a69cc8",
-  timeline: "#81929f",
-  hypotheses: "#c78e88",
+  entities: "#eeeeee",
+  evidence: "#bdbdbd",
+  locations: "#969696",
+  sources: "#d4d4d4",
+  timeline: "#ababab",
+  hypotheses: "#858585",
 };
 export function syncGraphElements(
   cy: cytoscape.Core,

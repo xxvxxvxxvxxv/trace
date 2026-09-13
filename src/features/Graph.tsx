@@ -60,7 +60,7 @@ export function Graph({
           style: {
             label: "data(code)",
             "background-color": "data(color)",
-            color: "#c5ceda",
+            color: "#cdcdcd",
             "font-size": 14,
             "text-valign": "bottom",
             "text-margin-y": 12,
@@ -69,7 +69,7 @@ export function Graph({
             "text-wrap": "wrap",
             "text-max-width": "150px",
             "border-width": 5,
-            "border-color": "#242c36",
+            "border-color": "#2b2b2b",
           },
         },
         {
@@ -77,26 +77,27 @@ export function Graph({
           style: { shape: "round-rectangle" },
         },
         { selector: 'node[kind="hypotheses"]', style: { shape: "diamond" } },
+        { selector: 'node[kind="timeline"]', style: { shape: "triangle" } },
         {
           selector: "edge",
           style: {
             width: 1.2,
-            "line-color": "#3e4a5b",
-            "target-arrow-color": "#3e4a5b",
+            "line-color": "#494949",
+            "target-arrow-color": "#494949",
             "target-arrow-shape": "triangle",
             "curve-style": "bezier",
             label: "",
             "font-size": 12,
-            color: "#a4afbf",
-            "text-background-color": "#11151b",
+            color: "#aeaeae",
+            "text-background-color": "#151515",
             "text-background-opacity": 1,
           },
         },
-        { selector: "node.neighbor", style: { "border-color": "#b8a17f" } },
-        { selector: "edge.neighbor", style: { "line-color": "#b8a17f", width: 2 } },
+        { selector: "node.neighbor", style: { "border-color": "#a3a3a3" } },
+        { selector: "edge.neighbor", style: { "line-color": "#a3a3a3", width: 2 } },
         {
           selector: ":selected",
-          style: { "border-color": "#d6ac68", "line-color": "#d6ac68" },
+          style: { "border-color": "#ffffff", "line-color": "#ffffff" },
         },
       ],
       layout: { name: "preset" },
@@ -359,7 +360,7 @@ export function Graph({
       <div className="graph-legend">
         {graphKinds.map((k) => (
           <span key={k}>
-            <i style={{ background: colors[k] }} />
+            <i className={`legend-${k}`} style={{ background: colors[k] }} />
             {definitions[k].label}
           </span>
         ))}

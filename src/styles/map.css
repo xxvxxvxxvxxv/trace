@@ -15,12 +15,12 @@
 }
 .map-canvas {
   height: clamp(480px, calc(100dvh - 360px), 900px);
-  background-color: #151e25;
+  background-color: #1d1d1d;
   background-image:
-    linear-gradient(#6c839015 1px, transparent 1px),
-    linear-gradient(90deg, #6c839015 1px, transparent 1px),
-    linear-gradient(#6c839025 1px, transparent 1px),
-    linear-gradient(90deg, #6c839025 1px, transparent 1px);
+    linear-gradient(#7f7f7f15 1px, transparent 1px),
+    linear-gradient(90deg, #7f7f7f15 1px, transparent 1px),
+    linear-gradient(#7f7f7f25 1px, transparent 1px),
+    linear-gradient(90deg, #7f7f7f25 1px, transparent 1px);
   background-size:
     24px 24px,
     24px 24px,
@@ -38,9 +38,9 @@
   left: 58px;
   width: 190px;
   padding: 14px;
-  border: 1px solid #465461;
+  border: 1px solid #525252;
   border-radius: 7px;
-  background: #1a222bf5;
+  background: #212121f5;
   box-shadow: 0 8px 25px #0004;
 }
 .map-layers h3 {
@@ -63,8 +63,8 @@
     12px ui-monospace,
     monospace;
   border-radius: 4px;
-  background: #18212bea;
-  color: #bac9d4;
+  background: #202020ea;
+  color: #c7c7c7;
   pointer-events: none;
 }
 .map-mode {
@@ -72,7 +72,7 @@
   z-index: 500;
   top: 16px;
   right: 16px;
-  background: #1a222bef;
+  background: #212121ef;
   padding: 7px 11px;
   border: 1px solid var(--border);
   border-radius: 4px;
@@ -112,7 +112,7 @@
 .location-list button:hover,
 .location-list button.selected {
   border-left-color: var(--accent);
-  background: #202932;
+  background: #282828;
 }
 .location-list small {
   display: block;
@@ -137,8 +137,8 @@
     sans-serif;
 }
 .leaflet-control-attribution {
-  background: #dfe4e7 !important;
-  color: #263441;
+  background: #e3e3e3 !important;
+  color: #323232;
   font-size: 11px;
 }
 @media (max-width: 600px) {

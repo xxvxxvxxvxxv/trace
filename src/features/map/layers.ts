@@ -26,8 +26,8 @@ export function updateMarkers(
     if (!marker) {
       marker = L.circleMarker(point, {
         radius: 9,
-        color: "#d7b278",
-        fillColor: "#a07843",
+        color: "#eeeeee",
+        fillColor: "#7d7d7d",
         fillOpacity: 0.8,
         weight: 2,
       }).addTo(layer);
@@ -35,7 +35,7 @@ export function updateMarkers(
     } else marker.setLatLng(point);
     marker.setStyle({
       radius: selectedId === r.id ? 13 : 9,
-      color: selectedId === r.id ? "#ffe0ad" : "#d7b278",
+      color: selectedId === r.id ? "#e3e3e3" : "#eeeeee",
       weight: selectedId === r.id ? 4 : 2,
     });
     marker.off("click");
@@ -94,7 +94,7 @@ export function updateRoutes(
       cache.set(
         r.id,
         L.polyline(points, {
-          color: "#d7b278",
+          color: "#eeeeee",
           weight: 2.5,
           opacity: 0.72,
           dashArray: "6 8",

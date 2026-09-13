@@ -16,8 +16,8 @@ button,
 .button {
   border: 1px solid var(--border);
   border-radius: 5px;
-  background: #1c232d;
-  color: #dbe2ec;
+  background: #222222;
+  color: #e1e1e1;
   padding: 9px 13px;
   display: inline-flex;
   align-items: center;
@@ -30,8 +30,8 @@ button,
 }
 button:hover,
 .button:hover {
-  background: #29323e;
-  border-color: #4c596c;
+  background: #313131;
+  border-color: #585858;
 }
 button:disabled {
   opacity: 0.45;
@@ -40,12 +40,12 @@ button:disabled {
 .primary {
   background: var(--accent);
   border-color: var(--accent);
-  color: #1b1b19;
+  color: #1b1b1b;
   font-weight: 600;
 }
 .primary:hover {
-  background: #e2c99f;
-  border-color: #e2c99f;
+  background: #cbcbcb;
+  border-color: #cbcbcb;
 }
 button:focus-visible,
 a:focus-visible,
@@ -56,7 +56,7 @@ textarea:focus-visible {
   outline-offset: 3px;
 }
 a {
-  color: #d7b77e;
+  color: #bababa;
   overflow-wrap: anywhere;
 }
 h1,
@@ -94,7 +94,7 @@ select,
 textarea {
   border: 1px solid var(--border);
   border-radius: 5px;
-  background: #121820;
+  background: #171717;
   color: var(--text);
   padding: 10px 12px;
   min-width: 0;
@@ -102,7 +102,7 @@ textarea {
 }
 input::placeholder,
 textarea::placeholder {
-  color: #7f8c9e;
+  color: #8b8b8b;
 }
 select {
   cursor: pointer;

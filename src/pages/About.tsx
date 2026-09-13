@@ -3,7 +3,7 @@ export function About() {
   return (
     <article className="panel prose">
       <TraceBrand />
-      <span className="eyebrow">TRACE / V0.2.1-BETA</span>
+      <span className="eyebrow">TRACE / V0.3.0-BETA</span>
       <h1>Open-Source Investigation Workbench</h1>
       <p>
         TRACE is intended for lawful open-source research and documentation. It helps
@@ -44,7 +44,7 @@ export function About() {
       </p>
       <h2>Limitations</h2>
       <p>
-        Version 0.2.1-beta combines evidence provenance, relationship analysis, a
+        Version 0.3.0-beta combines evidence provenance, relationship analysis, a
         qualified timeline, geospatial context, hypothesis testing, structured information
         gaps, a reusable tool library, and printable reports for a single analyst.
         Collaboration, cloud synchronization, AI analysis, authentication, and encrypted

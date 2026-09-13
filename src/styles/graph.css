@@ -1,7 +1,7 @@
 .graph-panel {
   position: relative;
   border: 1px solid var(--border);
-  background: #12171d;
+  background: #161616;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -11,7 +11,7 @@
 }
 .graph-canvas {
   height: clamp(480px, calc(100dvh - 360px), 900px);
-  background-image: radial-gradient(#46515c70 0.6px, transparent 0.6px);
+  background-image: radial-gradient(#4f4f4f70 0.6px, transparent 0.6px);
   background-size: 22px 22px;
 }
 .compact .graph-canvas {

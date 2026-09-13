@@ -1,14 +1,7 @@
 import type { RecordView } from "../presentation/records";
-import {
-  ArrowUpRight,
-  FolderOpen,
-  Clock,
-  FileText,
-  Users,
-  Compass,
-  HelpCircle,
-} from "lucide-react";
+import { ArrowUpRight, Clock, FileText, Users, Compass, HelpCircle } from "lucide-react";
 import { Timeline } from "../components/Timeline";
+import { TraceMark } from "../components/TraceBrand";
 import { Graph } from "../features/Graph";
 import { Badge } from "./RecordList";
 import type { Relationship, Activity, Kind } from "../models/schema";
@@ -78,7 +71,7 @@ export function Dashboard({
       {activeCase ? (
         <div className="case-banner">
           <div className="case-mark">
-            <FolderOpen size={24} />
+            <TraceMark />
           </div>
           <div>
             <span className="eyebrow">

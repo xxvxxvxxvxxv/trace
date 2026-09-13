@@ -11,11 +11,11 @@ table {
 }
 th {
   font-size: 11px;
-  color: #93a2b6;
+  color: #a0a0a0;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: #1b222d;
+  background: #212121;
   padding: 15px;
   text-align: left;
   white-space: nowrap;
@@ -25,20 +25,20 @@ td {
   border-top: 1px solid var(--border);
 }
 tbody tr:hover {
-  background: #1d2530;
+  background: #242424;
 }
 tbody tr.selected {
-  background: #202932 !important;
+  background: #282828 !important;
   box-shadow:
     inset 3px 0 var(--accent),
-    inset 0 1px #3c4651,
-    inset 0 -1px #3c4651;
+    inset 0 1px #454545,
+    inset 0 -1px #454545;
 }
 tbody tr.selected .record-link {
-  color: #f0d19b;
+  color: #d4d4d4;
 }
 td.mono {
-  color: #b69d73;
+  color: #9f9f9f;
   white-space: nowrap;
 }
 .record-link {
@@ -56,7 +56,7 @@ td.mono {
 }
 .row-description {
   display: block;
-  color: #8090a5;
+  color: #8e8e8e;
   font-size: 12px;
   max-width: 430px;
   overflow: hidden;
@@ -80,7 +80,7 @@ td.mono {
 }
 .tool-card p {
   font-size: 14px;
-  color: #9eabbc;
+  color: #a9a9a9;
   margin-top: 14px;
 }
 .tool-card .section-heading:last-child {
@@ -90,7 +90,7 @@ td.mono {
   font-size: 11px;
 }
 .tool-card .icon-button {
-  color: #bea273;
+  color: #a5a5a5;
 }
 .table-wrap {
   max-height: calc(100dvh - 320px);
@@ -106,7 +106,7 @@ th {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: #222932;
+  background: #282828;
   padding: 13px 16px;
   font-size: 12px;
   text-transform: uppercase;
@@ -187,5 +187,5 @@ td:first-child {
 .filter-chips .active {
   border-color: var(--accent);
   color: var(--accent);
-  background: #302a22;
+  background: #2b2b2b;
 }

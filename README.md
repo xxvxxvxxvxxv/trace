@@ -10,6 +10,15 @@ Everything is stored locally in the browser. There is no account, backend, analy
 
 ![TRACE investigation workspace](screenshots/overview.jpg)
 
+<details>
+<summary>Evidence inspector and relationship graph</summary>
+
+![TRACE evidence inspector](screenshots/inspector.jpg)
+
+![TRACE relationship graph](screenshots/graph.jpg)
+
+</details>
+
 ## Highlights
 
 - Evidence, entities, sources, notes, leads, hypotheses, and information gaps
@@ -66,7 +75,7 @@ e2e              portable Playwright smoke test
 
 ## Status
 
-Current release: **v0.2.1-beta** · schema v2 · MIT licensed.
+Current release: **v0.3.0-beta** · schema v2 · MIT licensed.
 
 ## Contributing
 
